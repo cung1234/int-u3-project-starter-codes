@@ -9,7 +9,12 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
-    padding: 20px;
+    background: url('download (2).jfif') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    image-rendering: auto;
+    margin: 0;
+    padding: 0;
 }
 
 /* Style the title of your story */
@@ -94,3 +99,4 @@ button:hover {
     font-size: 20px;
     margin-bottom: 20px;
 }
+

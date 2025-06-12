@@ -3,9 +3,10 @@
 let leftButton = document.querySelector('.option-one');
 let rightButton = document.querySelector('.option-two');
 let optionOnescreen = document.querySelector('.option-one-screen');
-let trackButton = document.querySelector('#option1');
-let keepButton = document.querySelector('#option2');
-
+let trackButton = document.querySelector('.track');
+let keepButton = document.querySelector('.keepLeft');
+let insideButton = document.querySelector('#cabin');
+let outsideButton = document.querySelector('#keepRight');
 
 
 
@@ -23,7 +24,6 @@ rightButton.addEventListener('click', function(){
     window.location.href = "optiontwo.html";
 });
 
-
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
+trackButton.addEventListener('click', function(){
+    window.location.href ="track.html";
+});
