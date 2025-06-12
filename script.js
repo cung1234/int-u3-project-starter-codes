@@ -1,6 +1,8 @@
 // Declare variables below to save the different divs of your story.
 
-
+let leftButton = document.querySelector('.option-one');
+let rightButton = document.querySelector('.option-two');
+let optionOnescreen = document.querySelector('.option-one-screen');
 
 
 
@@ -12,13 +14,13 @@
 //  - Then fill in the blanks with the correct variables.
 
 
-// INSERT_VARIABLE.addEventListener('click', function(){
+leftButton.addEventListener('click', function(){
+    window.location.href = "optionone.html";
+});
 
-// });
+rightButton.addEventListener('click', function(){
 
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
+});
 
 
 // INSERT_VARIABLE.addEventListener('click', function(){
