@@ -1,10 +1,16 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
 
-/* .option-one-screen, 
+.option-one-screen, 
 .option-two-screen, 
+.option-three-screen,
 .option-one-end, 
-.option-two-end  {
+.option-two-end,
+.option-three,
+.option-four,
+.option-five,
+.option-six,
+.restart-button{
    display:none;
 }
 
@@ -64,7 +70,25 @@ body {
     margin: 20px;
 }
 
+
 /* Style the option buttons */
+.option-one-screen .buttons button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.option-one-screen .buttons button:hover {
+    background-color: #1e7e34;
+}
 button {
     font-size: 16px;
     padding: 10px 20px;
@@ -77,6 +101,14 @@ button {
     transition: background-color 0.3s ease;
 }
 
+
+.buttons .restart-button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 button:hover {
     background-color: #0056b3;
 }
@@ -84,6 +116,7 @@ button:hover {
 /* Style the screens for option one and option two */
 .option-one-screen,
 .option-two-screen,
+.option-three-screen,
 .option-one-end,
 .option-two-end {
     background-color: #fff;
@@ -97,6 +130,7 @@ button:hover {
 /* Style the images in the screens */
 .option-one-screen img,
 .option-two-screen img,
+.option-three-screen img,
 .option-one-end img,
 .option-two-end img {
     max-width: 100%;
@@ -107,6 +141,7 @@ button:hover {
 /* Style the text in the screens */
 .option-one-screen h1,
 .option-two-screen h1,
+.option-three-screen h1,
 .option-one-end h1,
 .option-two-end h1 {
     font-size: 20px;
