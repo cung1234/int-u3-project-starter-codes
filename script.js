@@ -3,7 +3,8 @@
 let leftButton = document.querySelector('.option-one');
 let rightButton = document.querySelector('.option-two');
 let optionOnescreen = document.querySelector('.option-one-screen');
-
+let trackButton = document.querySelector('#option1');
+let keepButton = document.querySelector('#option2');
 
 
 
@@ -19,7 +20,7 @@ leftButton.addEventListener('click', function(){
 });
 
 rightButton.addEventListener('click', function(){
-
+    window.location.href = "optiontwo.html";
 });
 
 
